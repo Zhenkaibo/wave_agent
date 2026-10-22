@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m wavekit.analyze:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(pip install -r requirements.txt)",
+      "WebSearch"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}

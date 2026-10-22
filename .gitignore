@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# Claude Code personal files
+.claude/settings.local.json
+CLAUDE.local.md
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# generated output
+reports/*
+!reports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
